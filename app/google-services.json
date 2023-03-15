@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "472715095328",
+    "project_id": "chopstemp",
+    "storage_bucket": "chopstemp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472715095328:android:f07297b86a77c48c3d3b45",
+        "android_client_info": {
+          "package_name": "com.example.chopstemplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472715095328-pl9pcnthd0qv7ou491gedc2srjtgrvng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chopstemplate",
+            "certificate_hash": "c363f430d1f605f88c2c2ef020019d7bdb2cf9d3"
+          }
+        },
+        {
+          "client_id": "472715095328-shtq4jplluq67b27v6vu7rhig2bu267g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoYctkhorbqhqS7UhvWUjuuprsop-mT-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472715095328-shtq4jplluq67b27v6vu7rhig2bu267g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

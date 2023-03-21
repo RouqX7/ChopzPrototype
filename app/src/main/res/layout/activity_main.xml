@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,34 +7,40 @@
     android:background="@drawable/foodbg"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <ImageView
+        android:id="@+id/imageview5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_centerInParent="true" >
-        
-        <ImageView
-            android:layout_width="375dp"
-            android:layout_height="400dp"
-            android:src="@drawable/logo_transparent"
-            android:layout_gravity="center"
-            />
+        android:layout_height="320dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="220dp"
+        android:adjustViewBounds="false"
+        android:src="@drawable/logo_transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:textSize="35dp"
-            android:text="@string/slogan"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:layout_centerHorizontal="true"
-            android:id="@+id/txtSlogan"
-            android:textColor="@android:color/white" />
+    <TextView
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:id="@+id/textview7"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:text="Coochie Village"
+        android:textAllCaps="true"
+        android:textColor="#FDFDFD"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview5"
+
+        />
 
 
-        
-        
-    </LinearLayout>
-    
-</RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
